@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+<style>
+    /* *{
+        color: darkcyan;
+    } */
+
+    /* p,a{
+        background-color: burlywood;
+    } */
+
+    /* div p{
+        background-color: yellowgreen;
+    } */
+
+    /* div>p{
+        color: red;
+    } */
+
+    /* div+p{
+        color: green;
+    } */
+
+
+</style>
+</head>
+<body>
+<!--
+    Selectors:
+    * bütün elementlere özellik atar
+    etiket adıyle özellik atayınca o isimdeki etiketler etkilenir
+    , ile 2 farklı etikete özellik atanabilir(p,a{} gibi) 
+    
+    div p{} ile div içindeki p lere özellik atarız
+    div>p{} parenti div olan p lere özellik atar
+    div+p{} div elementinden sonraki p ye özellik atarız
+
+    div>p:first-child{} parenti div olan p childlardan ilkini seçer özellik atar
+    div>p:last-child{} parenti div olan p childlardan sonuncuyu seçer özellik atar
+    div>p:nth-child(3){} parenti div olan 3. p childı seçer özellik atar
+    
+    div>nav>a:nth(3){} divin içindeki navın, içindeki 3.a yı seçer özellik atar
+
+    a>b>c>d>li:nth(5){} a nın içindeki,b nin içindeki c>d nin içindeki li lerden 5.yi seçer özellik atar
+-->
+
+<div>
+    <td>Paragraf1</td>
+    <td>Paragraf2</td>
+    <td>Paragraf3</td>
+    <td>Paragraf4</td>
+    <td>Paragraf5</td>
+
+    <nav>
+        <p>Paragraf6</p>
+        <a href="">link1</a>
+        <a href="">link2</a>
+        <a href="">link3</a>
+    </nav>
+
+    <a href="">link4</a>
+    <a href="">link5</a>
+</div>
+
+
+    
+</body>
+</html>
