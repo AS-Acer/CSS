@@ -11,6 +11,31 @@
             color: cadetblue;
             
         }
+        a:link{
+            color: black;
+            text-decoration: none;
+
+        }
+        a:hover{
+            color:orange;
+
+        }
+        a:active{
+            color: blue;
+        }
+        a:visited{
+            color: purple;
+        }
+
+
+        .a{
+            list-style-type: square;
+            color: goldenrod;
+
+        }
+        .b{
+            list-style-type: lower-greek;
+        }
     </style>
 </head>
 <body>
@@ -19,6 +44,33 @@
          sonrada cdnjs font awesome sitesinden kütüpahenyi link ile importladık
     -->
     
+    <!--
+        a:link ilk hali
+        a:hover: üzerine gelindiğinde
+        a:active tıklanıldığında
+        a:visited tıklama sonrası geri gelindiğinde
+    -->
     <i class="fa-solid fa-house"></i>
+    <a href="">Home Page</a>
+
+    <!--
+        listelere list-style-type ile biçim atanabilir
+    -->
+
+    <ul class="a">
+    <li>BMW</li>
+    <li>VW</li>
+    <li>AUDİ</li>
+    </ul>
+    
+    <br>
+    
+    <ol class="b">
+        <li>BMW</li>
+        <li>VW</li>
+        <li>AUDİ</li>
+        </ol>
+    
+
 </body>
 </html>
